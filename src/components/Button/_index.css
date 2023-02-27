@@ -1,0 +1,36 @@
+.btnUrl {
+  display: block;
+  background-color:hsl(180, 66%, 49%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1.3rem;
+  font-weight:  700;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 16px 25px;
+ width: 150px;
+}
+.btnUrl:hover{
+    outline: none;
+}
+
+.btnUrl-rounded {
+  border-radius: 2rem;
+  padding: 0.875rem 2.875rem;
+}
+
+.copied {
+  background-color: hsl(257, 27%, 26%);
+}
+
+/* @include media-hover { */
+  .btnUrl:hover {
+    background: linear-gradient(hsla(180, 66%, 49%, 0.5), hsla(180, 66%, 49%, 0.5)),
+      linear-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 100%));
+  }
+
+  .copied:hover {
+    background: linear-gradient(hsla(257%, 27%, 26%, 0.5), hsla(257%, 27%, 26%, 0.5)),
+      linear-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 100%));
+  }
+/* } */

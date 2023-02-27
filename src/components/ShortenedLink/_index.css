@@ -1,0 +1,40 @@
+.link-card {
+  background-color: hsl(0, 0%, 100%);
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.9375rem;
+  margin: 20px 20px;
+  border-radius: 10px;
+  padding: 10px !important;
+}
+
+
+button {
+  font-size: 0.875rem;
+  padding: 0.625rem;
+  border-radius: 0.25rem;
+}
+
+.loading {
+  padding: 2rem;
+
+  animation-name: loading-card-animation-pulse;
+  animation-duration: 1100ms;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+@keyframes loading-card-animation-pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
